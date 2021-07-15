@@ -1,0 +1,28 @@
+#-represents comments
+
+# the amount of money in your bank account is 1.2e5
+amt = 1.2e6
+print(amt)
+
+# money recieved every year in form of salary
+salary = 9.3e5
+print(salary)
+
+# decrease the salary by 30% as tax paied to the government.
+salary *= 0.7 
+print(salary)
+
+# Add the salary to the bank account amt variable
+amt = amt + salary
+print(amt)
+
+# increase the amt by 4% that you recieved from the bank as intrest
+amt *=  1.04
+print(amt)
+
+# substract 1.2e5 from amt as the rent paied
+amt = amt - 1.2e5
+print(amt)
+
+# print the new value of the amt variable
+print(amt)
